@@ -1,6 +1,8 @@
-public class Solution {
+package Easy.Arrays;
 
-    public static int[] getSecondOrderElements(int n, int []a) {
+public class SecondLargest {
+
+    public static int[] getSecondOrderElements(int n, int[] a) {
 
         // Write your code here.
 
@@ -11,8 +13,6 @@ public class Solution {
         int ssmallest = Integer.MAX_VALUE;
 
         int smallest = Integer.MAX_VALUE;
-
- 
 
         for (int i = 0; i < n; i++) {
 
@@ -32,27 +32,27 @@ public class Solution {
 
         for (int i = 0; i < n; i++)
 
-    {
+        {
 
-       if (a[i] < smallest)
+            if (a[i] < smallest)
 
-       {
+            {
 
-          ssmallest = smallest;
+                ssmallest = smallest;
 
-          smallest = a[i];
+                smallest = a[i];
 
-       }
+            }
 
-       else if (a[i] < ssmallest && a[i] != smallest)
+            else if (a[i] < ssmallest && a[i] != smallest)
 
-       {
+            {
 
-          ssmallest = a[i];
+                ssmallest = a[i];
 
-       }
+            }
 
-    }
+        }
 
         int[] result = new int[2];
 

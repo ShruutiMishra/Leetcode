@@ -31,8 +31,6 @@
  */
 package Easy.Arrays;
 
-import java.util.*;
-
 public class removeDuplicate {
     static int removeDuplicates(int[] arr) {
         int i = 0;

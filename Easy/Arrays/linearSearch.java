@@ -1,3 +1,5 @@
+package Easy.Arrays;
+
 import java.util.*;
 
 class linearSearch {
@@ -24,5 +26,6 @@ class linearSearch {
         int key = sc.nextInt();
         int result = LinearSearch(arr, key);
         System.out.println("element is found at index " + result);
+        sc.close();
     }
 }

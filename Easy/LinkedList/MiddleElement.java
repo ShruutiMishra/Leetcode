@@ -1,7 +1,5 @@
 package Easy.LinkedList;
 
-import org.w3c.dom.Node;
-
 public class MiddleElement {
     public Node head = null;
     public Node tail = null;
